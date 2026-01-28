@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-add@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/number-float64-base-add/tags). For example,
+
+```javascript
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-add@v0.1.0-esm/index.mjs';
 ```
 
@@ -104,7 +109,7 @@ v = add( NaN, NaN );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-add@v0.1.0-esm/index.mjs';
+import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-add@esm/index.mjs';
 
 // Create arrays of random values:
 var x = discreteUniform( 100, -50, 50 );
