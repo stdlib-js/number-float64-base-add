@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-add@deno/mod.js';
+import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-add@v0.1.0-deno/mod.js';
 ```
 
 #### add( x, y )
@@ -99,7 +99,7 @@ v = add( NaN, NaN );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-add@deno/mod.js';
+import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-add@v0.1.0-deno/mod.js';
 
 // Create arrays of random values:
 var x = discreteUniform( 100, -50, 50 );
